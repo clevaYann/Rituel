@@ -1,0 +1,10 @@
+<?php
+// Fichier d'exemple de configuration.
+// Copiez ce fichier en `config.php` et remplissez les valeurs.
+
+$db_host = 'localhost';
+$db_name = 'nom_de_votre_db';
+$db_user = 'root';
+$db_pass = '';
+$charset = 'utf8mb4';
+?>

@@ -1,0 +1,14 @@
+# Fichier de configuration sensible
+# Il ne doit JAMAIS être partagé ou versionné dans Git.
+config.php
+
+# Dépendances gérées par Composer (bonne pratique pour le futur)
+/vendor/
+
+# Fichiers et dossiers des éditeurs de code et IDE
+.vscode/
+.idea/
+
+# Fichiers système d'exploitation
+.DS_Store
+Thumbs.db
