@@ -45,6 +45,9 @@ function generate_artifact_positions() {
         ['top' => [80, 90], 'left' => [5, 15]],  // skull
     ];
 
+    // On mélange les zones pour que les positions soient vraiment aléatoires
+    shuffle($zones);
+
     foreach ($artifacts as $index => $name) {
         $top = rand($zones[$index]['top'][0], $zones[$index]['top'][1]);
         $left = rand($zones[$index]['left'][0], $zones[$index]['left'][1]);
